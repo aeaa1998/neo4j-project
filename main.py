@@ -1,3 +1,8 @@
+#@author: Augusto Alonso, Pablo Mendez, David Cuellar
+#Proyecto 2
+#Estructura de datos
+#Profesor Douglas Barrios
+
 from neomodel import config
 from models.models import Product, User
 from standard.module import mainModule as msModule

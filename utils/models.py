@@ -1,3 +1,8 @@
+#@author: Augusto Alonso, Pablo Mendez, David Cuellar
+#Proyecto 2
+#Estructura de datos
+#Profesor Douglas Barrios
+
 class Singleton(type):
     _instances = {}
     def __call__(cls, *args, **kwargs):

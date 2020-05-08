@@ -1,3 +1,8 @@
+#@author: Augusto Alonso, Pablo Mendez, David Cuellar
+#Proyecto 2
+#Estructura de datos
+#Profesor Douglas Barrios
+
 from authentication.auth import authenticate, getAuth, setAuthUser, getUser
 from utils.utils import *
 from models.models import Product, User, Brand, ProductCategory

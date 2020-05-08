@@ -1,0 +1,1 @@
+Para la base de datos, se necesita tener instalada neo4j y correr el archivo seeder.cy usando el cypher de neo4j

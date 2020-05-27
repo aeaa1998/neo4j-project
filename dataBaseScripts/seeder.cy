@@ -3,11 +3,24 @@ CREATE (PedroAlonso:User {id: 2, name: 'Pedro Alonso', email: 'p@a.com', passwor
 CREATE (Margarita:User {id: 3, name: 'Margarita Ascencio', email: 'm@a.com', password: 'secret'})
 CREATE (David:User {id: 4, name: 'David Cuellar', email: 'd@c.com', password: 'secret'})
 CREATE (PedroJimenez:User {id: 5, name: 'Pedro Jimenez', email: 'p@j.com', password: 'secret'})
+
 CREATE (JulianGabriel:User {id: 6, name: 'Julian Gabriel', email: 'j@g.com', password: 'secret'})
 CREATE (Jose:User {id: 7, name: 'Jose castillo', email: 'jc@a.com', password: 'secret'})
 CREATE (Melany:User {id: 8, name: 'Melany Sandoval', email: 'ms@c.com', password: 'secret'})
 CREATE (Gabriel:User {id: 9, name: 'Gabriel Tenenbaum', email: 'GT@j.com', password: 'secret'})
 CREATE (AnaSofia:User {id: 10, name: 'Ana Sofia', email: 'AS@g.com', password: 'secret'})
+CREATE (GabrielaCortez:User {id: 10, name: 'Gabriela Cortez', email: 'GC@g.com', password: 'secret'})
+CREATE (LuisJimenez:User {id: 10, name: 'Luis Jimenez', email: 'LJ@g.com', password: 'secret'})
+CREATE (MariaTrujillo:User {id: 10, name: 'Maria Trujillo', email: 'MT@g.com', password: 'secret'})
+CREATE (AnaLuciaSanchez:User {id: 10, name: 'Ana Sanchez', email: 'ALS@g.com', password: 'secret'})
+CREATE (DiegoEstrada:User {id: 10, name: 'Diego Estrada', email: 'DE@g.com', password: 'secret'})
+CREATE (FernandoGonzalez:User {id: 10, name: 'Fernando Gonzalez', email: 'FG@g.com', password: 'secret'})
+CREATE (DanielHernandez:User {id: 10, name: 'Daniel Hernandez', email: 'DH@g.com', password: 'secret'})
+CREATE (GermanTrinidad:User {id: 10, name: 'German trinidad', email: 'GT@g.com', password: 'secret'})
+CREATE (KarlaCruz:User {id: 10, name: 'Karla Cruz', email: 'KC@g.com', password: 'secret'})
+CREATE (SaraBautista:User {id: 10, name: 'Sara Bautista', email: 'SB@g.com', password: 'secret'})
+CREATE (PabloMendez:User {id: 10, name: 'Pablo Mendez', email: 'PM@g.com', password: 'secret'})
+CREATE (Jennifer:User {id: 10, name: 'Jennifer Alvizures', email: 'JA@g.com', password: 'secret'})
 
 
 
@@ -347,7 +360,7 @@ CREATE
 (LacostePantalon)-[:BELOGNS_TO_CATEGORY]->((Cloth),
 (LacosteChumpa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (LacosteSueter)-[:BELOGNS_TO_CATEGORY]->(Cloth),
-(LacosteBluesa)-[:BELOGNS_TO_CATEGORY]->(VideoGames),
+(LacosteBlusa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (RalphaLaurenCamisa)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (RalphaLaurenBolso)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (RalphaLaurenBlusa)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
@@ -440,4 +453,102 @@ CREATE
 (David)-[:PURCHASED {quantity: 1}]->(PS4),
 (David)-[:REVIEWED {comments: 'Muy buena consola pero no es tan comoda como la switch' ,rating: 90}]->(NintendoSwitchLite),
 (David)-[:REVIEWED {comments: 'A pesar de ser una muy buena consola no tiene los mejores juegos' ,rating: 85}]->(PS4)
+
+CREATE
+(Margarita)-[:PURCHASED {quantity: 1}]->(AirMax90),
+(Margarita)-[:PURCHASED {quantity: 1}]->(LacosteBlusa),
+(Margarita)-[:REVIEWED {comments: 'Se siente bien cuando uno usa ropa de calidad' ,rating: 95}]->(LacosteBlusa),
+
+CREATE
+(PedroJimendez)-[:PURCHASED {quantity: 1}]->(DianaJalapeno),
+(PedroJimendez)-[:PURCHASED {quantity: 1}]->(Ducalvolteados),
+(PedroJimendez)-[:REVIEWED {comments: 'Me gustan bastante los jalapenos con frijolitos es lo mejor' ,rating: 100}]->(DianaJalapeno),
+
+CREATE
+(JulianGabriel)-[:PURCHASED {quantity: 1}]->(HPimpresora),
+(JulianGabriel)-[:PURCHASED {quantity: 1}]->(MacPro),
+(JulianGabriel)-[:REVIEWED {comments: 'Me gusta la elegancia y la marca pero por este precio creo que hubiera conseguido algo mejor' ,rating: 70}]->(MacPro),
+
+CREATE
+(Jose)-[:PURCHASED {quantity: 1}]->(AdidasPlayera),
+(Jose)-[:PURCHASED {quantity: 1}]->(AdidasTennis),
+(Jose)-[:REVIEWED {comments: 'Es la mejor marca para articulos deportivos la playera me hace sentir fresco cuando corro' ,rating: 90}]->(AdidasTennis),
+
+CREATE
+(Melany)-[:PURCHASED {quantity: 1}]->(Iphone11),
+(Melany)-[:PURCHASED {quantity: 1}]->(Airpods),
+(Melany)-[:REVIEWED {comments: 'Me encanta la triple camara que trae pero los airpods dejan mucho que desear' ,rating: 80}]->(Iphone11),
+
+CREATE
+(Gabriel)-[:PURCHASED {quantity: 1}]->(MabeEstufa),
+(Gabriel)-[:PURCHASED {quantity: 1}]->(MabeRefri),
+(Gabriel)-[:REVIEWED {comments: 'La estufa le encanto a mi mama pero la refri es demasiado pequena y hace ruido' ,rating: 60}]->(MabeRefri),
+
+CREATE
+(AnaSofia)-[:PURCHASED {quantity: 1}]->(HPcpu),
+(AnaSofia)-[:PURCHASED {quantity: 1}]->(HPgpu),
+(AnaSofia)-[:REVIEWED {comments: 'No recomiendo para nada esta tarjeta grafica a nadie, no me corre el inventor bien' ,rating: 40}]->(HPgpu),
+
+CREATE
+(GabrielaCortez)-[:PURCHASED {quantity: 1}]->(SamsungGalaxi10),
+(GabrielaCortez)-[:PURCHASED {quantity: 1}]->(TelevisionSamsung),
+(GabrielaCortez)-[:REVIEWED {comments: 'Valio la pena cada centavo esa television es impresionante como se ven las peliculas ahora en esta tele' ,rating: 100}]->(TelevisionSamsung),
+
+CREATE
+(Jennifer)-[:PURCHASED {quantity: 1}]->(ZaraBlusa),
+(Jennifer)-[:PURCHASED {quantity: 1}]->(ZaraBolso),
+(Jennifer)-[:REVIEWED {comments: 'Todos hablan de esta marca pero ahora que la pruebo no me parece nada espectacular las piezas son algo raras' ,rating: 50}]->(NintendoSwitchLite),
+
+CREATE
+(LuisJimenez)-[:PURCHASED {quantity: 1}]->(RalphLaurenCamisa),
+(LuisJimenez)-[:PURCHASED {quantity: 1}]->(RalphLaurenChumpa),
+(LuisJimenez)-[:REVIEWED {comments: 'Por alguna razon cuando utilizo esta chumpa me siento mucho mejor conmigo mismo' ,rating: 100}]->(RalphLaurenChumpa),
+
+CREATE
+(MariaTrujillo)-[:PURCHASED {quantity: 1}]->(CalvinCamisa),
+(MariaTrujillo)-[:PURCHASED {quantity: 1}]->(CalvinPantalon),
+(MariaTrujillo)-[:REVIEWED {comments: 'A mi novio le encantan estas camisas y pantalones desafortundamente creo que el color no le convencion pero se ve feliz con su regalo' ,rating: 90}]->(NintendoSwitchLite),
+
+CREATE
+(AnaLuciaSanchez)-[:PURCHASED {quantity: 1}]->(WiiU),
+(AnaLuciaSanchez)-[:PURCHASED {quantity: 1}]->(AeropostaleBlusa),
+(AnaLuciaSanchez)-[:REVIEWED {comments: 'No se parecia para nada a la de la foto' ,rating: 30}]->(AeropostaleBlusa),
+
+CREATE
+(DiegoEstrada)-[:PURCHASED {quantity: 1}]->(B&Borchata),
+(DiegoEstrada)-[:PURCHASED {quantity: 1}]->(DianaNacho),
+(DiegoEstrada)-[:REVIEWED {comments: 'Me encanta la orchata fria para los fines de semana' ,rating: 80}]->(B&Borchata),
+
+
+CREATE
+(FernandoGonzalez)-[:PURCHASED {quantity: 1}]->(UnderGorra),
+(FernandoGonzalez)-[:PURCHASED {quantity: 1}]->(UnderPantaloneta),
+(FernandoGonzalez)-[:REVIEWED {comments: 'Me parece la mejor relacion calidad precio respecto a cosas deportivas' ,rating: 100}]->(UnderGorra),
+
+CREATE
+(DanielHernandez)-[:PURCHASED {quantity: 1}]->(WhirpoolRefri),
+(DanielHernandez)-[:PURCHASED {quantity: 1}]->(WhirpoolLavadora),
+(DanielHernandez)-[:REVIEWED {comments: 'Whirpool es la mejor marca de electrodomesticos actualmente son mas duraderos y resistentes' ,rating: 100}]->(WhirpoolRefri),
+
+
+CREATE
+(GermanTrinidad)-[:PURCHASED {quantity: 1}]->(AlienWare),
+(GermanTrinidad)-[:PURCHASED {quantity: 1}]->(Xbox),
+(GermanTrinidad)-[:REVIEWED {comments: 'No se si sea la mejor marca de computadoras gaming pero estoy muy satisfecho' ,rating: 90}]->(AlienWare),
+
+
+CREATE
+(KarlaCruz)-[:PURCHASED {quantity: 1}]->(MicrosoftOffice),
+(KarlaCruz)-[:PURCHASED {quantity: 1}]->(DellGarantia),
+(KarlaCruz)-[:REVIEWED {comments: 'Es algo necesario para nuestro dia a dia sin embargo se necesita mejorar' ,rating: 70}]->(MicrosoftOffice),
+
+CREATE
+(SaraBautista)-[:PURCHASED {quantity: 1}]->(MicroPC),
+(SaraBautista)-[:PURCHASED {quantity: 1}]->(B&Bsalsa),
+(SaraBautista)-[:REVIEWED {comments: 'Esta salsa me recuerda a cuando era nina' ,rating: 90}]->(B&Bsalsa),
+
+CREATE
+(PabloMendez)-[:PURCHASED {quantity: 1}]->(UnderMochila),
+(PabloMendez)-[:PURCHASED {quantity: 1}]->(Mac),
+(PabloMendez)-[:REVIEWED {comments: 'Esta muy bonita ojala me dure me preocupa que aunque sea barata no dure' ,rating: 90}]->(UnderMochila),
 

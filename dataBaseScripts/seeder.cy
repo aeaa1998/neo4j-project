@@ -9,18 +9,18 @@ CREATE (Jose:User {id: 7, name: 'Jose castillo', email: 'jc@a.com', password: 's
 CREATE (Melany:User {id: 8, name: 'Melany Sandoval', email: 'ms@c.com', password: 'secret'})
 CREATE (Gabriel:User {id: 9, name: 'Gabriel Tenenbaum', email: 'GT@j.com', password: 'secret'})
 CREATE (AnaSofia:User {id: 10, name: 'Ana Sofia', email: 'AS@g.com', password: 'secret'})
-CREATE (GabrielaCortez:User {id: 10, name: 'Gabriela Cortez', email: 'GC@g.com', password: 'secret'})
-CREATE (LuisJimenez:User {id: 10, name: 'Luis Jimenez', email: 'LJ@g.com', password: 'secret'})
-CREATE (MariaTrujillo:User {id: 10, name: 'Maria Trujillo', email: 'MT@g.com', password: 'secret'})
-CREATE (AnaLuciaSanchez:User {id: 10, name: 'Ana Sanchez', email: 'ALS@g.com', password: 'secret'})
-CREATE (DiegoEstrada:User {id: 10, name: 'Diego Estrada', email: 'DE@g.com', password: 'secret'})
-CREATE (FernandoGonzalez:User {id: 10, name: 'Fernando Gonzalez', email: 'FG@g.com', password: 'secret'})
-CREATE (DanielHernandez:User {id: 10, name: 'Daniel Hernandez', email: 'DH@g.com', password: 'secret'})
-CREATE (GermanTrinidad:User {id: 10, name: 'German trinidad', email: 'GT@g.com', password: 'secret'})
-CREATE (KarlaCruz:User {id: 10, name: 'Karla Cruz', email: 'KC@g.com', password: 'secret'})
-CREATE (SaraBautista:User {id: 10, name: 'Sara Bautista', email: 'SB@g.com', password: 'secret'})
-CREATE (PabloMendez:User {id: 10, name: 'Pablo Mendez', email: 'PM@g.com', password: 'secret'})
-CREATE (Jennifer:User {id: 10, name: 'Jennifer Alvizures', email: 'JA@g.com', password: 'secret'})
+CREATE (GabrielaCortez:User {id: 11, name: 'Gabriela Cortez', email: 'GC@g.com', password: 'secret'})
+CREATE (LuisJimenez:User {id: 12, name: 'Luis Jimenez', email: 'LJ@g.com', password: 'secret'})
+CREATE (MariaTrujillo:User {id: 13, name: 'Maria Trujillo', email: 'MT@g.com', password: 'secret'})
+CREATE (AnaLuciaSanchez:User {id: 14, name: 'Ana Sanchez', email: 'ALS@g.com', password: 'secret'})
+CREATE (DiegoEstrada:User {id: 15, name: 'Diego Estrada', email: 'DE@g.com', password: 'secret'})
+CREATE (FernandoGonzalez:User {id: 16, name: 'Fernando Gonzalez', email: 'FG@g.com', password: 'secret'})
+CREATE (DanielHernandez:User {id: 17, name: 'Daniel Hernandez', email: 'DH@g.com', password: 'secret'})
+CREATE (GermanTrinidad:User {id: 18, name: 'German trinidad', email: 'GT@g.com', password: 'secret'})
+CREATE (KarlaCruz:User {id: 19, name: 'Karla Cruz', email: 'KC@g.com', password: 'secret'})
+CREATE (SaraBautista:User {id: 20, name: 'Sara Bautista', email: 'SB@g.com', password: 'secret'})
+CREATE (PabloMendez:User {id: 21, name: 'Pablo Mendez', email: 'PM@g.com', password: 'secret'})
+CREATE (Jennifer:User {id: 22, name: 'Jennifer Alvizures', email: 'JA@g.com', password: 'secret'})
 
 
 
@@ -46,21 +46,20 @@ CREATE (CalvinKlein:Brand {id: 10, name: 'CalvinKlein'})
 CREATE (Microsoft:Brand {id: 11, name: 'Microsoft'})
 CREATE (GAMINGCOMPUTER:Brand {id: 12, name: 'GAMINGCOMPUTER'})
 CREATE (Samsung:Brand {id: 16, name: 'Samsung'})
-CREATE (LG:Brand {id: 17, name: 'LG'})
-CREATE (APPLE:Brand {id: 18, name: 'Apple'})
-CREATE (DELL:Brand {id: 19, name: 'DELL'})
-CREATE (HP:Brand {id: 20, name: 'HP'})
-CREATE (Adidas:Brand {id: 21, name: 'Adidas'})
-CREATE (UnderArmour:Brand {id: 22, name: 'UnderArmour'})
-CREATE (Maller:Brand {id: 24, name: 'Maller'})
-CREATE (B&B:Brand {id: 24, name: 'B&B'})
+CREATE (APPLE:Brand {id: 17, name: 'Apple'})
+CREATE (DELL:Brand {id: 18, name: 'DELL'})
+CREATE (HP:Brand {id: 19, name: 'HP'})
+CREATE (Adidas:Brand {id: 20, name: 'Adidas'})
+CREATE (UnderArmour:Brand {id: 21, name: 'UnderArmour'})
+CREATE (Maller:Brand {id: 22, name: 'Maller'})
+CREATE (BYB:Brand {id: 23, name: 'B&B'})
 CREATE (Ducal:Brand {id: 24, name: 'Ducal'})
-CREATE (Diana:Brand {id: 24, name: 'Diana'})
-CREATE (Hellmans:Brand {id: 24, name: 'Hellmans'})
-CREATE (Whirpool:Brand {id: 24, name: 'Whirpool'})
-CREATE (Oster:Brand {id: 24, name: 'Oster'})
-CREATE (GeneralElectric:Brand {id: 24, name: 'Mabe'})
-CREATE (Mabe:Brand {id: 24, name: 'Mabe'})
+CREATE (Diana:Brand {id: 25, name: 'Diana'})
+CREATE (Hellmans:Brand {id: 26, name: 'Hellmans'})
+CREATE (Whirpool:Brand {id: 27, name: 'Whirpool'})
+CREATE (Oster:Brand {id: 28, name: 'Oster'})
+CREATE (GeneralElectric:Brand {id: 29, name: 'Mabe'})
+CREATE (Mabe:Brand {id: 30, name: 'Mabe'})
 
 
 
@@ -173,10 +172,10 @@ CREATE (UnderTenis:Product {id: 92, name: 'Tennis UnderArmour', price: 2900})
 CREATE (UnderMochila:Product {id: 93, name: 'Mochila UnderArmour', price: 900})
 CREATE (UnderGorra:Product {id: 94, name: 'Gorra UnderArmour', price: 300})
 CREATE (UnderPantaloneta:Product {id: 95, name: 'Pantaloneta UnderArmour', price: 400})
-CREATE (B&Borchata:Product {id: 96, name: 'Orchata B&B', price: 20})
-CREATE (B&Bsalsa:Product {id: 97, name: 'Salsa B&B', price: 15})
-CREATE (B&Bmayonesa:Product {id: 98, name: 'Mayonesa B&B', price: 17})
-CREATE (B&Bpicante:Product {id: 99, name: 'Picante B&B', price: 13})
+CREATE (BYBorchata:Product {id: 96, name: 'Orchata B&B', price: 20})
+CREATE (BYBsalsa:Product {id: 97, name: 'Salsa B&B', price: 15})
+CREATE (BYBmayonesa:Product {id: 98, name: 'Mayonesa B&B', price: 17})
+CREATE (BYBpicante:Product {id: 99, name: 'Picante B&B', price: 13})
 CREATE (Ducalvolteados:Product {id: 100, name: 'Frijoles Ducal Volteados', price: 20})
 CREATE (Ducalparados:Product {id: 96, name: 'Frijoles parados Ducal', price: 25})
 CREATE (DucalBote:Product {id: 97, name: 'Frijol Ducal Bote', price: 10})
@@ -210,7 +209,7 @@ CREATE
 (LGV60)-[:BELOGNS_TO_BRAND]->(LG),
 (LGG8)-[:BELOGNS_TO_BRAND]->(LG),
 
-(NikeAirMax)-[:BELOGNS_TO_BRAND]->(Nike,
+(NikeAirMax)-[:BELOGNS_TO_BRAND]->(Nike),
 (NikeAirForceOne)-[:BELOGNS_TO_BRAND]->(Nike),
 (NikeSB)-[:BELOGNS_TO_BRAND]->(Nike),
 (NikeRosheRun)-[:BELOGNS_TO_BRAND]->(Nike),
@@ -294,10 +293,10 @@ CREATE
 (UnderMochila)-[:BELOGNS_TO_BRAND]->(UnderArmour),
 (UnderGorra)-[:BELOGNS_TO_BRAND]->(UnderArmour),
 (UnderPantaloneta)-[:BELOGNS_TO_BRAND]->(UnderArmour),
-(B&Borchata)-[:BELOGNS_TO_BRAND]->(B&B),
-(B&Bsalsa)-[:BELOGNS_TO_BRAND]->(B&B),
-(B&Bmayonesa)-[:BELOGNS_TO_BRAND]->(B&B),
-(B&Bpicante)-[:BELOGNS_TO_BRAND]->(B&B),
+(BYBorchata)-[:BELOGNS_TO_BRAND]->(BYB),
+(BYBsalsa)-[:BELOGNS_TO_BRAND]->(BYB),
+(BYBmayonesa)-[:BELOGNS_TO_BRAND]->(BYB),
+(BYBpicante)-[:BELOGNS_TO_BRAND]->(BYB),
 (Ducalvolteados)-[:BELOGNS_TO_BRAND]->(Ducal),
 (Ducalparados)-[:BELOGNS_TO_BRAND]->(Ducal),
 (DucalBote)-[:BELOGNS_TO_BRAND]->(Ducal),
@@ -308,18 +307,18 @@ CREATE
 (WhirpoolRefri)-[:BELOGNS_TO_BRAND]->(Whirpool),
 (WhirpoolLavadora)-[:BELOGNS_TO_BRAND]->(Whirpool),
 (WhirpoolSecadora)-[:BELOGNS_TO_BRAND]->(Whirpool),
-(MabeEstufa)-[:BELOGNS_TO_BRAND]->('Mabe'),
-(MabeLavadora)-[:BELOGNS_TO_BRAND]->('Mabe'),
-(MabeRefri)-[:BELOGNS_TO_BRAND]->('Mabe'),
-(MabeSecadora)-[:BELOGNS_TO_BRAND]->('Mabe'),
+(MabeEstufa)-[:BELOGNS_TO_BRAND]->(Mabe),
+(MabeLavadora)-[:BELOGNS_TO_BRAND]->(Mabe),
+(MabeRefri)-[:BELOGNS_TO_BRAND]->(Mabe),
+(MabeSecadora)-[:BELOGNS_TO_BRAND]->(Mabe)
 
 
 
 CREATE
+
 (AirMax90)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (NikeAirJordan)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (SkyModern)-[:BELOGNS_TO_CATEGORY]->(Cloth),
-(AirMax90)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (HST20)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (NintendoSwitch)-[:BELOGNS_TO_CATEGORY]->(VideoGames),
 (NintendoSwitchLite)-[:BELOGNS_TO_CATEGORY]->(VideoGames),
@@ -327,7 +326,7 @@ CREATE
 (PS3)-[:BELOGNS_TO_CATEGORY]->(VideoGames),
 (SonyXperia)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (LGV60)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
-(LGG8)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices)
+(LGG8)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (NikeAirMax)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (NikeAirForceOne)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (NikeSB)-[:BELOGNS_TO_CATEGORY]->(Cloth),
@@ -350,14 +349,14 @@ CREATE
 (ZaraPantalon)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (ZaraSueter)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (ZaraBlusa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
-(ZaraBolso)-[:BELOGNS_TO_CATEGORY]->((Cloth),
+(ZaraBolso)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (AeropostaleCamisa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (AeropostalePantalon)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (AeropostaleChumpa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (AeropostaleBlusa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (AeropostaleSueter)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (LacosteCamisa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
-(LacostePantalon)-[:BELOGNS_TO_CATEGORY]->((Cloth),
+(LacostePantalon)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (LacosteChumpa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (LacosteSueter)-[:BELOGNS_TO_CATEGORY]->(Cloth),
 (LacosteBlusa)-[:BELOGNS_TO_CATEGORY]->(Cloth),
@@ -380,9 +379,9 @@ CREATE
 (Asus)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (MSIcomputer)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (SamsungGalaxi10)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
-(LavadoraSamsung)-[:BELOGNS_TO_CATEGORY]->(Electrodomesticos)
-(RefrigeradoraSamsung)-[:BELOGNS_TO_CATEGORY]->(Electrodomesticos)
-(SecadoraSamsung)-[:BELOGNS_TO_CATEGORY]->(Electrodomesticos)
+(LavadoraSamsung)-[:BELOGNS_TO_CATEGORY]->(Electrodomesticos),
+(RefrigeradoraSamsung)-[:BELOGNS_TO_CATEGORY]->(Electrodomesticos),
+(SecadoraSamsung)-[:BELOGNS_TO_CATEGORY]->(Electrodomesticos),
 (TabletSamsung)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (TelevisionSamsung)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
 (HeadPhonesSamsung)-[:BELOGNS_TO_CATEGORY]->(ElectricDevices),
@@ -412,10 +411,10 @@ CREATE
 (UnderMochila)-[:BELOGNS_TO_CATEGORY]->(Sports),
 (UnderGorra)-[:BELOGNS_TO_CATEGORY]->(Sports),
 (UnderPantaloneta)-[:BELOGNS_TO_CATEGORY]->(Sports),
-(B&Borchata)-[:BELOGNS_TO_CATEGORY]->(Groceries),
-(B&Bsalsa)-[:BELOGNS_TO_CATEGORY]->(Groceries),
-(B&Bmayonesa)-[:BELOGNS_TO_CATEGORY]->(Groceries),
-(B&Bpicante)-[:BELOGNS_TO_CATEGORY]->(Groceries),
+(BYBorchata)-[:BELOGNS_TO_CATEGORY]->(Groceries),
+(BYBsalsa)-[:BELOGNS_TO_CATEGORY]->(Groceries),
+(BYBmayonesa)-[:BELOGNS_TO_CATEGORY]->(Groceries),
+(BYBpicante)-[:BELOGNS_TO_CATEGORY]->(Groceries),
 (Ducalvolteados)-[:BELOGNS_TO_CATEGORY]->(Groceries),
 (Ducalparados)-[:BELOGNS_TO_CATEGORY]->(Groceries),
 (DucalBote)-[:BELOGNS_TO_CATEGORY]->(Groceries),
@@ -424,12 +423,12 @@ CREATE
 (DianaNacho)-[:BELOGNS_TO_CATEGORY]->(Groceries),
 (DianaAlboroto)-[:BELOGNS_TO_CATEGORY]->(Groceries),
 (WhirpoolRefri)-[:BELOGNS_TO_CATEGORY]->(Groceries),
-(WhirpoolLavadora)-[:BELOGNS_TO_CATEGORY]->('Electromesticos'),
-(WhirpoolSecadora)-[:BELOGNS_TO_CATEGORY]->('Electromesticos'),
-(MabeEstufa)-[:BELOGNS_TO_CATEGORY]->('Electromesticos'),
-(MabeLavadora)-[:BELOGNS_TO_CATEGORY]->('Electromesticos'),
-(MabeRefri)-[:BELOGNS_TO_CATEGORY]->('Electromesticos'),
-(MabeSecadora)-[:BELOGNS_TO_CATEGORY]->('Electromesticos'),
+(WhirpoolLavadora)-[:BELOGNS_TO_CATEGORY]->(Electromesticos),
+(WhirpoolSecadora)-[:BELOGNS_TO_CATEGORY]->(Electromesticos),
+(MabeEstufa)-[:BELOGNS_TO_CATEGORY]->(Electromesticos),
+(MabeLavadora)-[:BELOGNS_TO_CATEGORY]->(Electromesticos),
+(MabeRefri)-[:BELOGNS_TO_CATEGORY]->(Electromesticos),
+(MabeSecadora)-[:BELOGNS_TO_CATEGORY]->(Electromesticos)
 
 CREATE
 (Augusto)-[:PURCHASED {quantity: 2}]->(NikeAirJordan),
@@ -457,98 +456,98 @@ CREATE
 CREATE
 (Margarita)-[:PURCHASED {quantity: 1}]->(AirMax90),
 (Margarita)-[:PURCHASED {quantity: 1}]->(LacosteBlusa),
-(Margarita)-[:REVIEWED {comments: 'Se siente bien cuando uno usa ropa de calidad' ,rating: 95}]->(LacosteBlusa),
+(Margarita)-[:REVIEWED {comments: 'Se siente bien cuando uno usa ropa de calidad' ,rating: 95}]->(LacosteBlusa)
 
 CREATE
 (PedroJimendez)-[:PURCHASED {quantity: 1}]->(DianaJalapeno),
 (PedroJimendez)-[:PURCHASED {quantity: 1}]->(Ducalvolteados),
-(PedroJimendez)-[:REVIEWED {comments: 'Me gustan bastante los jalapenos con frijolitos es lo mejor' ,rating: 100}]->(DianaJalapeno),
+(PedroJimendez)-[:REVIEWED {comments: 'Me gustan bastante los jalapenos con frijolitos es lo mejor' ,rating: 100}]->(DianaJalapeno)
 
 CREATE
 (JulianGabriel)-[:PURCHASED {quantity: 1}]->(HPimpresora),
 (JulianGabriel)-[:PURCHASED {quantity: 1}]->(MacPro),
-(JulianGabriel)-[:REVIEWED {comments: 'Me gusta la elegancia y la marca pero por este precio creo que hubiera conseguido algo mejor' ,rating: 70}]->(MacPro),
+(JulianGabriel)-[:REVIEWED {comments: 'Me gusta la elegancia y la marca pero por este precio creo que hubiera conseguido algo mejor' ,rating: 70}]->(MacPro)
 
 CREATE
 (Jose)-[:PURCHASED {quantity: 1}]->(AdidasPlayera),
 (Jose)-[:PURCHASED {quantity: 1}]->(AdidasTennis),
-(Jose)-[:REVIEWED {comments: 'Es la mejor marca para articulos deportivos la playera me hace sentir fresco cuando corro' ,rating: 90}]->(AdidasTennis),
+(Jose)-[:REVIEWED {comments: 'Es la mejor marca para articulos deportivos la playera me hace sentir fresco cuando corro' ,rating: 90}]->(AdidasTennis)
 
 CREATE
 (Melany)-[:PURCHASED {quantity: 1}]->(Iphone11),
 (Melany)-[:PURCHASED {quantity: 1}]->(Airpods),
-(Melany)-[:REVIEWED {comments: 'Me encanta la triple camara que trae pero los airpods dejan mucho que desear' ,rating: 80}]->(Iphone11),
+(Melany)-[:REVIEWED {comments: 'Me encanta la triple camara que trae pero los airpods dejan mucho que desear' ,rating: 80}]->(Iphone11)
 
 CREATE
 (Gabriel)-[:PURCHASED {quantity: 1}]->(MabeEstufa),
 (Gabriel)-[:PURCHASED {quantity: 1}]->(MabeRefri),
-(Gabriel)-[:REVIEWED {comments: 'La estufa le encanto a mi mama pero la refri es demasiado pequena y hace ruido' ,rating: 60}]->(MabeRefri),
+(Gabriel)-[:REVIEWED {comments: 'La estufa le encanto a mi mama pero la refri es demasiado pequena y hace ruido' ,rating: 60}]->(MabeRefri)
 
 CREATE
 (AnaSofia)-[:PURCHASED {quantity: 1}]->(HPcpu),
 (AnaSofia)-[:PURCHASED {quantity: 1}]->(HPgpu),
-(AnaSofia)-[:REVIEWED {comments: 'No recomiendo para nada esta tarjeta grafica a nadie, no me corre el inventor bien' ,rating: 40}]->(HPgpu),
+(AnaSofia)-[:REVIEWED {comments: 'No recomiendo para nada esta tarjeta grafica a nadie, no me corre el inventor bien' ,rating: 40}]->(HPgpu)
 
 CREATE
 (GabrielaCortez)-[:PURCHASED {quantity: 1}]->(SamsungGalaxi10),
 (GabrielaCortez)-[:PURCHASED {quantity: 1}]->(TelevisionSamsung),
-(GabrielaCortez)-[:REVIEWED {comments: 'Valio la pena cada centavo esa television es impresionante como se ven las peliculas ahora en esta tele' ,rating: 100}]->(TelevisionSamsung),
+(GabrielaCortez)-[:REVIEWED {comments: 'Valio la pena cada centavo esa television es impresionante como se ven las peliculas ahora en esta tele' ,rating: 100}]->(TelevisionSamsung)
 
 CREATE
 (Jennifer)-[:PURCHASED {quantity: 1}]->(ZaraBlusa),
 (Jennifer)-[:PURCHASED {quantity: 1}]->(ZaraBolso),
-(Jennifer)-[:REVIEWED {comments: 'Todos hablan de esta marca pero ahora que la pruebo no me parece nada espectacular las piezas son algo raras' ,rating: 50}]->(NintendoSwitchLite),
+(Jennifer)-[:REVIEWED {comments: 'Todos hablan de esta marca pero ahora que la pruebo no me parece nada espectacular las piezas son algo raras' ,rating: 50}]->(NintendoSwitchLite)
 
 CREATE
 (LuisJimenez)-[:PURCHASED {quantity: 1}]->(RalphLaurenCamisa),
 (LuisJimenez)-[:PURCHASED {quantity: 1}]->(RalphLaurenChumpa),
-(LuisJimenez)-[:REVIEWED {comments: 'Por alguna razon cuando utilizo esta chumpa me siento mucho mejor conmigo mismo' ,rating: 100}]->(RalphLaurenChumpa),
+(LuisJimenez)-[:REVIEWED {comments: 'Por alguna razon cuando utilizo esta chumpa me siento mucho mejor conmigo mismo' ,rating: 100}]->(RalphLaurenChumpa)
 
 CREATE
 (MariaTrujillo)-[:PURCHASED {quantity: 1}]->(CalvinCamisa),
 (MariaTrujillo)-[:PURCHASED {quantity: 1}]->(CalvinPantalon),
-(MariaTrujillo)-[:REVIEWED {comments: 'A mi novio le encantan estas camisas y pantalones desafortundamente creo que el color no le convencion pero se ve feliz con su regalo' ,rating: 90}]->(NintendoSwitchLite),
+(MariaTrujillo)-[:REVIEWED {comments: 'A mi novio le encantan estas camisas y pantalones desafortundamente creo que el color no le convencion pero se ve feliz con su regalo' ,rating: 90}]->(NintendoSwitchLite)
 
 CREATE
 (AnaLuciaSanchez)-[:PURCHASED {quantity: 1}]->(WiiU),
 (AnaLuciaSanchez)-[:PURCHASED {quantity: 1}]->(AeropostaleBlusa),
-(AnaLuciaSanchez)-[:REVIEWED {comments: 'No se parecia para nada a la de la foto' ,rating: 30}]->(AeropostaleBlusa),
+(AnaLuciaSanchez)-[:REVIEWED {comments: 'No se parecia para nada a la de la foto' ,rating: 30}]->(AeropostaleBlusa)
 
 CREATE
-(DiegoEstrada)-[:PURCHASED {quantity: 1}]->(B&Borchata),
+(DiegoEstrada)-[:PURCHASED {quantity: 1}]->(BYBorchata),
 (DiegoEstrada)-[:PURCHASED {quantity: 1}]->(DianaNacho),
-(DiegoEstrada)-[:REVIEWED {comments: 'Me encanta la orchata fria para los fines de semana' ,rating: 80}]->(B&Borchata),
+(DiegoEstrada)-[:REVIEWED {comments: 'Me encanta la orchata fria para los fines de semana' ,rating: 80}]->(BYBorchata)
 
 
 CREATE
 (FernandoGonzalez)-[:PURCHASED {quantity: 1}]->(UnderGorra),
 (FernandoGonzalez)-[:PURCHASED {quantity: 1}]->(UnderPantaloneta),
-(FernandoGonzalez)-[:REVIEWED {comments: 'Me parece la mejor relacion calidad precio respecto a cosas deportivas' ,rating: 100}]->(UnderGorra),
+(FernandoGonzalez)-[:REVIEWED {comments: 'Me parece la mejor relacion calidad precio respecto a cosas deportivas' ,rating: 100}]->(UnderGorra)
 
 CREATE
 (DanielHernandez)-[:PURCHASED {quantity: 1}]->(WhirpoolRefri),
 (DanielHernandez)-[:PURCHASED {quantity: 1}]->(WhirpoolLavadora),
-(DanielHernandez)-[:REVIEWED {comments: 'Whirpool es la mejor marca de electrodomesticos actualmente son mas duraderos y resistentes' ,rating: 100}]->(WhirpoolRefri),
+(DanielHernandez)-[:REVIEWED {comments: 'Whirpool es la mejor marca de electrodomesticos actualmente son mas duraderos y resistentes' ,rating: 100}]->(WhirpoolRefri)
 
 
 CREATE
 (GermanTrinidad)-[:PURCHASED {quantity: 1}]->(AlienWare),
 (GermanTrinidad)-[:PURCHASED {quantity: 1}]->(Xbox),
-(GermanTrinidad)-[:REVIEWED {comments: 'No se si sea la mejor marca de computadoras gaming pero estoy muy satisfecho' ,rating: 90}]->(AlienWare),
+(GermanTrinidad)-[:REVIEWED {comments: 'No se si sea la mejor marca de computadoras gaming pero estoy muy satisfecho' ,rating: 90}]->(AlienWare)
 
 
 CREATE
 (KarlaCruz)-[:PURCHASED {quantity: 1}]->(MicrosoftOffice),
 (KarlaCruz)-[:PURCHASED {quantity: 1}]->(DellGarantia),
-(KarlaCruz)-[:REVIEWED {comments: 'Es algo necesario para nuestro dia a dia sin embargo se necesita mejorar' ,rating: 70}]->(MicrosoftOffice),
+(KarlaCruz)-[:REVIEWED {comments: 'Es algo necesario para nuestro dia a dia sin embargo se necesita mejorar' ,rating: 70}]->(MicrosoftOffice)
 
 CREATE
 (SaraBautista)-[:PURCHASED {quantity: 1}]->(MicroPC),
-(SaraBautista)-[:PURCHASED {quantity: 1}]->(B&Bsalsa),
-(SaraBautista)-[:REVIEWED {comments: 'Esta salsa me recuerda a cuando era nina' ,rating: 90}]->(B&Bsalsa),
+(SaraBautista)-[:PURCHASED {quantity: 1}]->(BYBsalsa),
+(SaraBautista)-[:REVIEWED {comments: 'Esta salsa me recuerda a cuando era nina' ,rating: 90}]->(BYBsalsa)
 
 CREATE
 (PabloMendez)-[:PURCHASED {quantity: 1}]->(UnderMochila),
 (PabloMendez)-[:PURCHASED {quantity: 1}]->(Mac),
-(PabloMendez)-[:REVIEWED {comments: 'Esta muy bonita ojala me dure me preocupa que aunque sea barata no dure' ,rating: 90}]->(UnderMochila),
+(PabloMendez)-[:REVIEWED {comments: 'Esta muy bonita ojala me dure me preocupa que aunque sea barata no dure' ,rating: 90}]->(UnderMochila)
 

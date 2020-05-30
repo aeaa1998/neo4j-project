@@ -1,4 +1,7 @@
 from prettytable import PrettyTable
+import re
+from neomodel import StructuredNode
+from typing import Union, List
 
 def intInput(text: str, sign: str = "=", limit: int = 0):
     while True:
@@ -12,6 +15,17 @@ def intInput(text: str, sign: str = "=", limit: int = 0):
             elif sign == "-" and c < limit:
                 return c
             print("Ingrese un valor que cumpla con el criterio solicitado.")
+        except:
+            print("Ingrese un valor valido.")
+
+def intPositiveInput(text: str, limit: int = 1):
+    while True:
+        c = input(text + "\n")
+        try:
+            c = int(c)
+            if 0 < c <= limit:
+                return c
+            print(f"Ingrese un valor que cumpla con el criterio solicitado. Mayor a 0 y menor o igual a {str(limit)}")
         except:
             print("Ingrese un valor valido.")
 
@@ -44,6 +58,23 @@ def selectOptionInList(text: str,  options: list, errorString:str = "Ingrese un 
             print(errorString)
 
 
+def selectModelInList(text: str,  options: List[StructuredNode], errorString:str = "Ingrese un numero de opcion valido")\
+        -> StructuredNode:
+    while True:
+        printModels(options)
+        ids = []
+        for index, value in enumerate(options):
+            ids.append(value.id)
+        c = intInput(text, sign="+")
+        if c in ids:
+            for o in options:
+                if o.id == c:
+                    return o
+        else:
+            print(errorString)
+
+
+
 def printModel(model):
     keys = [key for key in model.__properties__.keys()]
     values = [model.__properties__[key] for key in keys]
@@ -64,6 +95,31 @@ def printModels(models: list):
         print(x)
     else:
         print("No hay modelos")
+
+def emailInput(text: str) -> str:
+    while True:
+        email = input(f"{text}\n")
+        if re.match("^.+@(\[?)[a-zA-Z0-9-.]+.([a-zA-Z]{2,3}|[0-9]{1,3})(]?)$", email):
+            return email
+        else:
+            print("Ingrese un email valido.")
+
+
+def getProductBrands(products: list) -> list:
+    filtered = []
+    for p in products:
+        for b in p.getBrands():
+            if b not in filtered:
+                filtered.append(b)
+    return filtered
+
+def getProductCategories(products: list) -> list:
+    filtered = []
+    for p in products:
+        for b in p.getCategories():
+            if b not in filtered:
+                filtered.append(b)
+    return filtered
 
 
 

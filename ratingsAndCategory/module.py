@@ -41,12 +41,12 @@ def userModule(user: User):
 def secondaryModule(allProducts:list):
     c = selectOptionInList("Escoge el numero de una de las opciones", options=secondModules)
     if c == 0:
-        brands = [brand for brand in Brand.nodes.all()]
+        brands = [brand for brand in getProductBrands(allProducts)]
         brandChoosen = selectOptionInList("Escoje el numero de marca que deseas buscar",
                                           options=[brand.name for brand in brands])
         brandModule(allProducts, brands[brandChoosen])
     elif c ==1:
-        categories = [category for category in ProductCategory.nodes.all()]
+        categories = [category for category in getProductCategories(allProducts)]
         categoryChoose = selectOptionInList("Escoje el numero de categoria que deseas buscar",
                                             options=[c.name for c in categories])
         categoryModule(allProducts, categories[categoryChoose])
@@ -57,7 +57,7 @@ def brandModule(allProducts:list, brand: Brand):
     if c == 0:
         printModels(allProducts)
     elif c == 1:
-        categories = [category for category in ProductCategory.nodes.all()]
+        categories = [category for category in getProductCategories(allProducts)]
         categoryChoose = selectOptionInList("Escoje el numero de categoria que deseas buscar", options=[c.name for c in categories])
         allProducts = list(filter(lambda product: len(product.category.filter(name=categories[categoryChoose].name).all()) > 0
                                   , allProducts))
@@ -72,7 +72,7 @@ def categoryModule(allProducts:list, category: ProductCategory):
             printModels(allProducts)
             break
         elif c == 1:
-            brands = [brand for brand in Brand.nodes.all()]
+            brands = [brand for brand in getProductBrands(allProducts)]
             brandChoose = selectOptionInList("Escoje el numero de marca que deseas buscar", options=[c.name for c in brands])
             allProducts = list(filter(lambda product: len(product.brand.filter(name=brands[brandChoose].name).all()) > 0
                                       , allProducts))
